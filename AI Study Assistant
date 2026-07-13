@@ -1,0 +1,27 @@
+topic = input("What subject are you studying today? ")
+if topic.lower() == "math":
+    print("\nAI Suggestion:")
+    print("- Practice 10 problems.")
+    print("- Review important formulas.")
+    print("- Spend 30 minutes solving exercises.")
+
+elif topic.lower() == "python":
+    print("\nAI Suggestion:")
+    print("- Practice loops and functions.")
+    print("- Write one small program.")
+    print("- Read Python documentation.")
+
+elif topic.lower() == "english":
+    print("\nAI Suggestion:")
+    print("- Learn 10 new words.")
+    print("- Read an English article.")
+    print("- Practice speaking for 15 minutes.")
+
+else:
+    print("\nAI Suggestion:")
+    print("- Create a study plan.")
+    print("- Take short breaks.")
+    print("- Review your notes.")
+
+print("\nGood luck with your studies!")
+      
